@@ -1,0 +1,24 @@
+{
+    "name": "jiaozi/command_server",
+    "require": {
+        "workerman/workerman": "^3.5",
+        "jiaozi/protocol_json_stream" : "1.0"
+    },
+    "authors": [
+        {
+            "name": "jiaozi",
+            "email": "jiaozi@iyenei.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "xcommand\\" : "./"
+        }
+    },
+    "repositories": {
+      "packagist": {
+        "type": "composer",
+        "url": "https://packagist.org"
+      }
+    }
+}
